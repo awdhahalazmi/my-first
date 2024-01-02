@@ -1,0 +1,40 @@
+class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello world!");
+    String firstName = "Awdhah";
+    String LastName = "Alazmi";
+    int age = 23;
+    double amount = 1000;
+     System.out.println(firstName +" "+LastName);
+     System.out.println(age);
+    System.out.println(amount);
+    boolean ismarried = false;
+    String deposit = "deposit";
+    String withdraw = "withdraw";
+    amount = 20;
+    System.out.println("the amount is "+ amount);
+    System.out.println("would you like to "+ deposit+ "or" + withdraw);
+
+    int amounT = 5;
+    int total = amounT + amounT;
+    System.out.println(amounT + " plus "+ amounT + " makes " + total);
+
+   
+    System.out.println("my name is " + firstName);
+    System.out.println("and my last name letters is " + LastName.length() );
+    if(LastName.startsWith("A"));
+    boolean isstarts = true;
+    
+    System.out.println("does my last name starts with A "+ isstarts);
+    double amountKwd = 86;
+    double toUS = amountKwd * 3.25;
+    System.out.println(amountKwd + " kwd is " + toUS + " USD");
+    double amounteur = amountKwd * 2.97;
+    System.out.println(amountKwd + " kwd is " + amounteur + " EUR");
+  }
+
+  // @Test
+  // void addition() {
+  //     assertEquals(2, 1 + 1);
+  // }
+}
